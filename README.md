@@ -1,1 +1,31 @@
-# CybernetiX-S3C-AI.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CybernetiX S3C - AI Companion</title>
+
+  <link rel="stylesheet" href="your-website-style.css">
+
+  <style>
+    iframe {
+      width: 100%;
+      height: 100vh;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <iframe src="https://bard.google.com/share/22bc78da30d0" width="100%" height="100vh" frameborder="0"></iframe>
+
+  <script>
+    function resizeIframe() {
+      var iframe = document.querySelector('iframe');
+      iframe.style.height = window.innerHeight + 'px';
+    }
+
+    window.addEventListener('resize', resizeIframe);
+    resizeIframe(); // Initial resize on page load
+  </script>
+</body>
+</html>
